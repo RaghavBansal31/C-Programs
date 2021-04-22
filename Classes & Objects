@@ -1,0 +1,53 @@
+1. Classes contain private variables by default which are known as instance variables, attributes, properties. Also
+   classes contain methods known as instance methods, behaviours, functions.
+
+2.  class members consists of methods and properties both.
+
+3. main can access public variables of class by invoking instances.
+
+4.main cannot access private properties and methods of a class.
+
+5. member variables can also be known as instance variables.
+
+6. member functions can also be known as instance methods.
+
+7. 4 bytes
+
+8. it is 1 byte so that different objects may have different addresses.
+
+9. no limit
+
+10. private
+
+11. by invoking instances or By creating class object
+
+12. No
+
+13.yes
+14.no
+15. yes
+
+
+1. instances are private variables which can be accessed by all member methods of the class and local variables
+   can be accessed by particular method it is declared in.
+
+2. No
+
+3. yes
+
+4. int Price,Qty,total
+.2 int P,int Q, discount
+.3  no
+.4 Discount is a local variable of doTotal() method, so it cannot be used in show() method
+.5 Product p
+.6 to get the assigned value to p in price variable or So, that given Price can be used in all other methods.
+.7 it wont work or Methods become private and private methods can not be accessed from main()
+.8 using public: or By declared them with public specifier.
+.9 for security or  So that any outside method from class like main() can not directly access the members of class.
+
+5. garbage value
+6. 10
+7. Qty = P;
+   Price = Q;
+   and
+   cout<<"total="<<Qty*Price;
